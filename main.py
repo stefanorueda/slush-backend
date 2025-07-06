@@ -10,7 +10,10 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://slush-frontend-wn6z.vercel.app"],
+    allow_origins=[
+        "https://slush-frontend-wn6z.vercel.app",
+        "http://localhost:3000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
