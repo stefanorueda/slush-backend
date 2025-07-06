@@ -1,4 +1,4 @@
-# 🧾 Slush Bill Split – Take-Home Project by Stefano Rueda
+# 🧾 Slush Bill Split
 
 ## 🌟 Overview
 This is a take-home project for Slush to build a simple, clean interface for manually splitting a bill between participants. The project includes:
